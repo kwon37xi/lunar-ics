@@ -97,10 +97,10 @@ input[type="number"]:focus {
   margin-top: 4px;
 }
 
+.preview-btn,
 .generate-btn {
-  width: 100%;
+  flex: 1;
   padding: 14px;
-  background-color: #4a90d9;
   color: white;
   border: none;
   border-radius: 6px;
@@ -108,6 +108,10 @@ input[type="number"]:focus {
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.2s;
+}
+
+.generate-btn {
+  background-color: #4a90d9;
 }
 
 .generate-btn:hover {
@@ -125,16 +129,7 @@ input[type="number"]:focus {
 }
 
 .preview-btn {
-  flex: 1;
-  padding: 14px;
   background-color: #718096;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background-color 0.2s;
 }
 
 .preview-btn:hover {
